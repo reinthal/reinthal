@@ -1,64 +1,66 @@
 ## Alexander Reinthal
 
-7 years in industry across exploit prediction, operational security, data engineering, and ML. Currently on a career break pivoting into AI safety. Based in Göteborg.
+AI safety researcher and engineer. Empirical, threat-model-driven research. Göteborg, Sweden — open to relocation.
 
-**Background:** Started in vulnerability research — specifically predicting software exploitability using ML on CVE/NVD data. Moved into operational cyber-security and data engineering. Now focused on AI safety: interpretability, alignment evals, and understanding how models behave when they shouldn't.
+**Looking for:** AI safety roles (research/engineering) · short contracts on dangerous capability evals, ML engineering, DevOps
 
-Website: [reinthal.me](https://reinthal.me) · Mastodon: [@reinthal@mastodon.social](https://mastodon.social/@reinthal)
+**Contact:** [accounts@reinthal.me](mailto:accounts@reinthal.me) · [Book a meeting](https://calendar.proton.me/bookings#9iyCFpQ192f62dCr4M8XDSCuyW9TOnvhHcDABe0qGY8=) · [LinkedIn](https://www.linkedin.com/in/alexander-reinthal/) · [reinthal.me](https://reinthal.me) · [Mastodon](https://mastodon.social/@reinthal) · [CV](https://github.com/reinthal/reinthalcv/blob/main/rendercv_output/Alexander_Reinthal_CV.pdf)
 
 ---
 
 ## AI Safety
 
-Work in progress. Mostly evals, mechanistic interpretability experiments, and reading papers.
+### About Emergent Misalignment — 3rd / 8, ARENA 7.0 Capstone
+
+- Studied how data composition and inoculation prompting cause emergent misalignment
+- Found current model organisms show large capability degradations — argues for more realistic model-organism training
+- [about-emergent-misalignment](https://github.com/reinthal/about-emergent-misalignment)
+
+### Detecting Deception in Chinese Models — 1st / 8, ARENA 7.0 Mech-Interp Hackathon
+
+- Found deception probes detect when Chinese models present CCP talking points
+- [deception-detection-in-chinese-modelsels](https://github.com/reinthal/deception-detection-in-chinese-modelsels) · uses fork of Apollo Research's [deception-detection](https://github.com/reinthal/deception-detection) eval suite
+- PR to ARENA materials: [ARENA_3.0 #279](https://github.com/callummcdougall/ARENA_3.0/pull/279)
+
+### Detecting Piecewise Cyber Espionage in Model APIs — 4th / 671, Apart D/Acc 2025
+
+- Demonstrated cyber-attacks can bypass safeguards by splitting the attack into individually benign-looking pieces
+- [Project page](https://apartresearch.com/project/detecting-piecewise-cyber-espionage-in-model-apis-a8gx) · [hackerFinder9000](https://github.com/reinthal/hackerFinder9000) (infra) · [Red-APT](https://github.com/reinthal/Red-APT) (red-team agent harness)
+- [Continued at SPAR 2026](https://sparai.org/projects/sp26/recP9TAD2YEJsBjO7) (without me) with researchers from MILA and ERA
+
+### Writing
+
+- [The Changing North Star of AI Control](https://www.lesswrong.com/posts/35xxWPJETCoiiKZCG/the-changing-north-star-of-ai-control) — LessWrong
+- [Casually Jailbreaking Gemini 2.5 Flash](https://www.reinthal.me/posts/casually-jailbreaking-gemini25-flash/) — reinthal.me
+
+### Collaborators
+
+- [Raffaello Fornasiere](https://github.com/RaffaelloFornasiere) (LASR) — Detecting Deception in Chinese Models
+- Allison (Goodfire) — Detecting Deception in Chinese Models
+- [David Williams-King](https://ca.linkedin.com/in/david-williams-king) (ERA) — Piecewise Cyber Espionage
+
+### Other AI safety projects
 
 | Repo | What it is |
 |------|-----------|
-| [deception-detection-in-chinese-modelsels](https://github.com/reinthal/deception-detection-in-chinese-modelsels) | Probing for deception in Chinese-language LLMs |
-| [about-emergent-misalignment](https://github.com/reinthal/about-emergent-misalignment) | Experiments around the emergent misalignment phenomenon |
-| [deception-detection](https://github.com/reinthal/deception-detection) | Fork of Apollo Research's deception-detection eval suite |
-| [inoculation-prompting](https://github.com/reinthal/inoculation-prompting) | Fork of safety-research/inoculation-prompting — prompt-based defenses against misalignment |
-| [model-organisms-for-EM](https://github.com/reinthal/model-organisms-for-EM) | Fork of clarifying-EM's model organisms repo for emergent misalignment papers |
-| [control-arena](https://github.com/reinthal/control-arena) | Fork of UK AISI's ControlArena — control experiment settings and protocols |
-| [inspect_evals](https://github.com/reinthal/inspect_evals) | Fork of UK AISI's eval collection for Inspect AI |
-| [ROLL](https://github.com/reinthal/ROLL) | Fork of Alibaba's RL scaling library for LLMs |
-| [rl-moms-of-scheming](https://github.com/reinthal/rl-moms-of-scheming) | Investigating scheming behavior under RL |
-| [mixed-goals](https://github.com/reinthal/mixed-goals) | Exploring mixed-goal training dynamics |
-| [do-llms-prefer-philosophy](https://github.com/reinthal/do-llms-prefer-philosophy) | Do LLMs gravitate toward philosophy in free-form conversation? Comparing 1-on-1 vs. Wikipedia browsing |
-| [hackerFinder9000](https://github.com/reinthal/hackerFinder9000) | Defensive tool for spotting malicious access patterns in model backends |
-| [ai-safety-impact-assessment](https://github.com/reinthal/ai-safety-impact-assessment) | Impact assessment framework sketches for AI safety |
+| [rl-moms-of-scheming](https://github.com/reinthal/rl-moms-of-scheming) | Investigating model organisms of scheming under RL **(Ongoing)** |
+| [do-llms-prefer-philosophy](https://github.com/reinthal/do-llms-prefer-philosophy) | Why do LLMs gravitate toward philosophy in free-form conversation? Compared AI 1-on-1s to agents browsing Wikipedia |
+| [cost-to-detection](https://github.com/reinthal/cost-to-detection) | Modeling attacker cost-to-detection tradeoffs. Blog post: [The Changing North Star of AI Control](https://www.lesswrong.com/posts/35xxWPJETCoiiKZCG/the-changing-north-star-of-ai-control) |
 
 ---
 
-## Cyber-security
+## Vulnerability Prediction (2018)
 
-Repos from the operational security and vulnerability research era.
+Methodology paper adopted by Recorded Future. Their Vulnerability Intelligence customers see **86%** less unplanned downtime, **11 hours/week** saved on triage, **73%** more threat visibility.
 
-| Repo | What it is |
-|------|-----------|
-| [cost-to-detection](https://github.com/reinthal/cost-to-detection) | Modeling attacker cost-to-detection tradeoffs |
-| [mtga-hack](https://github.com/reinthal/mtga-hack) | MTG Arena tooling (C#) — started as a detection research side project |
+> "We typically see 5–10 CVEs a month escalated automatically, saving the team roughly 3–5 hours gathering information manually."
+> — Senior Engineer/Threat Analyst
 
----
-
-## The Graveyard 🪦
-
-Projects that didn't make it. Left here for posterity (and humility).
-
-| Repo | Cause of death |
-|------|---------------|
-| [asofterworld](https://github.com/reinthal/asofterworld) | Scraper/archiver for A Softer World — scope crept, then stopped |
-| [readnow](https://github.com/reinthal/readnow) | Read-later JS thing, abandoned before it did anything useful |
-| [icloud-calendar-mcp](https://github.com/reinthal/icloud-calendar-mcp) | MCP server for iCloud calendar — auth was a nightmare, shelved |
+- [Paper: Data Modeling for Predicting Software Exploits](https://link.springer.com/chapter/10.1007/978-3-030-03638-6_21)
+- [Recorded Future's Vulnerability Management solution](https://www.recordedfuture.com/products/vulnerability-intelligence)
 
 ---
 
-## Config / Infra
+## More
 
-| Repo | What it is |
-|------|-----------|
-| [nixos-config](https://github.com/reinthal/nixos-config) | NixOS system config |
-| [neovim](https://github.com/reinthal/neovim) | Neovim config in Nix |
-| [reinthalcv](https://github.com/reinthal/reinthalcv) | CV in Typst |
-| [template](https://github.com/reinthal/template) | Python project template |
-| [arxiv-mcp-ng](https://github.com/reinthal/arxiv-mcp-ng) | arXiv MCP server (next-gen) |
+Dotfiles, infra, and older work: [github.com/reinthal?tab=repositories](https://github.com/reinthal?tab=repositories)
