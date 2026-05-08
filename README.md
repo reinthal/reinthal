@@ -4,7 +4,7 @@ AI safety researcher and engineer. Empirical, threat-model-driven research. Göt
 
 **Looking for:** AI safety roles (research/engineering) · short contracts on dangerous capability evals, ML engineering, DevOps
 
-**Contact:** [accounts@reinthal.me](mailto:accounts@reinthal.me) · [Book a meeting](https://calendar.proton.me/bookings#9iyCFpQ192f62dCr4M8XDSCuyW9TOnvhHcDABe0qGY8=) · [LinkedIn](https://www.linkedin.com/in/alexander-reinthal/) · [reinthal.me](https://reinthal.me) · [Mastodon](https://mastodon.social/@reinthal) · [CV](https://github.com/reinthal/reinthalcv/blob/main/rendercv_output/Alexander_Reinthal_CV.pdf)
+**Contact:** [accounts@reinthal.me](mailto:email@reinthal.me) · [Book a meeting](https://calendar.proton.me/bookings#9iyCFpQ192f62dCr4M8XDSCuyW9TOnvhHcDABe0qGY8=) · [LinkedIn](https://www.linkedin.com/in/alexander-reinthal/) · [reinthal.me](https://reinthal.me) · [Mastodon](https://mastodon.social/@reinthal) · [CV](https://github.com/reinthal/reinthalcv/blob/main/rendercv_output/Alexander_Reinthal_CV.pdf)
 
 ---
 
