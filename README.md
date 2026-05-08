@@ -20,13 +20,15 @@ AI safety researcher and engineer. Empirical, threat-model-driven research. Göt
 
 - Found deception probes detect when Chinese models present CCP talking points
 - [deception-detection-in-chinese-modelsels](https://github.com/reinthal/deception-detection-in-chinese-modelsels) · uses fork of Apollo Research's [deception-detection](https://github.com/reinthal/deception-detection) eval suite
-- PR to ARENA materials: [ARENA_3.0 #279](https://github.com/callummcdougall/ARENA_3.0/pull/279)
 
 ### Detecting Piecewise Cyber Espionage in Model APIs — 4th / 671, Apart D/Acc 2025
 
 - Demonstrated cyber-attacks can bypass safeguards by splitting the attack into individually benign-looking pieces
 - [Project page](https://apartresearch.com/project/detecting-piecewise-cyber-espionage-in-model-apis-a8gx) · [hackerFinder9000](https://github.com/reinthal/hackerFinder9000) (infra) · [Red-APT](https://github.com/reinthal/Red-APT) (red-team agent harness)
 - [Continued at SPAR 2026](https://sparai.org/projects/sp26/recP9TAD2YEJsBjO7) (without me) with researchers from MILA and ERA
+### Open Source / PRs
+
+- PR to ARENA materials: [ARENA_3.0 #279](https://github.com/callummcdougall/ARENA_3.0/pull/279)
 
 ### Writing
 
