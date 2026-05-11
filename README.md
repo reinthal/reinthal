@@ -37,8 +37,8 @@ AI safety researcher and engineer. Empirical, threat-model-driven research. Göt
 
 ### Collaborators
 
-- [Raffaello Fornasiere](https://github.com/RaffaelloFornasiere) (LASR) — Detecting Deception in Chinese Models
-- Allison (Goodfire) — Detecting Deception in Chinese Models
+- [Raffaello Fornasiere](https://github.com/RaffaelloFornasiere) (LASR research fellow) — Detecting Deception in Chinese Models
+- Allison Zhuang (ARENA / Goodfire SPAR fellow) — Detecting Deception in Chinese Models
 - [David Williams-King](https://ca.linkedin.com/in/david-williams-king) (ERA) — Piecewise Cyber Espionage
 
 ### Other AI safety projects
