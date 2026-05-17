@@ -45,7 +45,7 @@ AI safety researcher and engineer. Empirical, threat-model-driven research. Göt
 
 | Repo | What it is |
 |------|-----------|
-| [rl-moms-of-scheming](https://github.com/reinthal/rl-moms-of-scheming) | Investigating model organisms of scheming under RL **(Ongoing)** |
+| [scheming-propensity](https://github.com/reinthal/scheming-propensity) | Reproduced the evals from [Evaluating and Understanding Scheming Propensity in LLM Agents Arxiv:2603.01608](https://arxiv.org/pdf/2603.01608) |
 | [do-llms-prefer-philosophy](https://github.com/reinthal/do-llms-prefer-philosophy) | Why do LLMs gravitate toward philosophy in free-form conversation? Compared AI 1-on-1s to agents browsing Wikipedia |
 | [cost-to-detection](https://github.com/reinthal/cost-to-detection) | Modeling attacker cost-to-detection tradeoffs. Blog post: [The Changing North Star of AI Control](https://www.lesswrong.com/posts/35xxWPJETCoiiKZCG/the-changing-north-star-of-ai-control) |
 
