@@ -4,7 +4,7 @@ Hi,
 
 I'm Alex. I'm an AI safety researcher and engineer with a taste for empirical and threat-model-driven research.
 
-If you find any of the things I do interesting, maybe you'd like to talk? If you do, you can email me at > email at reinthal dot me < or use [this link to book a meeting](https://calendar.proton.me/bookings#9iyCFpQ192f62dCr4M8XDSCuyW9TOnvhHcDABe0qGY8=).
+If you find any of the things I do interesting, maybe you'd like to talk? If you do, you can email me at > email at reinthal dot me < or use [this link to book a meeting](https://calendar.proton.me/bookings#YrOkip6vSz5bRcgEssSiNmDZ4h8_YBqtVo48z_Be42Q=).
 
 ---
 
